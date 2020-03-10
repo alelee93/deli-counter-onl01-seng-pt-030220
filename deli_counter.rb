@@ -9,5 +9,5 @@ def line(katz_deli)
     newline.push( "#{index+1}. #{item}")}
     puts "The line is currently: " << newline.join(" ")
 end    
-  
 end 
+
