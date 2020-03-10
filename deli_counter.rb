@@ -5,6 +5,6 @@ def line(katz_deli)
     return "The line is currently empty."
   else
     return katz_deli
-    
+end    
   
 end 
