@@ -12,5 +12,7 @@ end
 end 
 
 def take_a_number(katz_deli,name)
-  puts name << katz_deli.length+1
+  new_line = katz_deli.push(name)
+  new_line.each_with_index{|name, index|
+  puts ""
 end
